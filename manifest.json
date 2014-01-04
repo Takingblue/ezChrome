@@ -1,0 +1,32 @@
+{
+  "name": "ezChrome",
+  "version": "1.0",
+  "description": "Some shortcuts",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["ezChrome.js"]
+  },
+  "commands": {
+    "reopen-previous-closed-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Z",
+        "mac": "MacCtrl+Z"
+      },
+      "description": "reopen the tab previously closed"
+    },
+    "create-new-tab": {
+      "suggested_key": {
+        "default": "Ctrl+C",
+        "mac": "MacCtrl+C"
+      },
+      "description": "create a new tab"
+    },
+    "switch-to-previous-tab": {
+      "suggested_key": {
+        "default": "Ctrl+A",
+        "mac": "MacCtrl+A"
+      },
+      "description": "switch to previous tab"
+    }
+  }
+}
